@@ -7,7 +7,7 @@ import java.util.*;
 
 @Configuration
 @PropertySource("modules.properties")
-@ComponentScan(basePackages = "com.example.Module")
+@ComponentScan(basePackages = "com.example.module")
 public class App {
 
     public static Map<Integer, Module> modules = new HashMap<>();

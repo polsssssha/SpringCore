@@ -9,15 +9,15 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-@Component("textModule")
+@Component(/*"textModule"*/)
 public class TextModule implements Module{
 
     private int d;
-    @Value(value = "#{${textModuleTitle}}")
+//     @Value(value = "#{${textModuleTitle}}")
     private String moduleName;
-    @Value(value = "#{${textModuleExtensions}}")
+//    @Value(value = "#{${textModuleExtensions}}")
     private List<String> extensions;
-    @Value(value = "#{${textModuleMethods}}")
+//    @Value(value = "#{${textModuleMethods}}")
     private List<String> methods;
     @Override
     public String getModuleName(){
