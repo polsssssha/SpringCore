@@ -9,7 +9,6 @@ import java.util.*;
 @PropertySource("modules.properties")
 @ComponentScan(basePackages = "com.example.module")
 public class App {
-
     public static Map<Integer, Module> modules = new HashMap<>();
     static Module neededModule;
     static String pathName;

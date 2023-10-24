@@ -3,7 +3,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.example.module.Module;
 
 public class Main {
-
     public static void main(String[] args){
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(App.class);
           App.modules.put(1, (Module) applicationContext.getBean("directoryModule"));
@@ -13,6 +12,4 @@ public class Main {
 
           App.Start();
     }
-
-
 }
